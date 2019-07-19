@@ -1,4 +1,4 @@
-// pages/family/family.js
+// pages/new/new.js
 Page({
 
   /**

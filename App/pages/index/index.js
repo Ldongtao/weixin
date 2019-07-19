@@ -11,12 +11,12 @@ Page({
   },
 
   gotoHome() {
-    wx.navigateTo({
-      url: '../home/home',
-    })
-    // wx.switchTab({
-    //   url: '../home/home'
+    // wx.navigateTo({
+    //   url: '../home/home',
     // })
+    wx.switchTab({
+      url: '../new/new'
+    })
   },
   //事件处理函数
   bindViewTap: function() {

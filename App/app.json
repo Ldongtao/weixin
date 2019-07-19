@@ -2,17 +2,61 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
+    "pages/new/new",
+
     "pages/home/home",
     "pages/movie/movie",
-    "pages/family/family",
     "pages/classify/classify",
     "pages/GuJi/guji"
   ],
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#f46",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "最新",
+        "pagePath": "pages/new/new",
+        "iconPath": "images/new.png",
+        "selectedIconPath": "images/new-on.png"
+      },
+      {
+        "text": "婚纱照",
+        "pagePath": "pages/home/home",
+        "iconPath": "images/skit.png",
+        "selectedIconPath": "images/skit-on.png"
+      },
+      {
+        "text": "微电影",
+        "pagePath": "pages/movie/movie",
+        "iconPath": "images/movie.png",
+        "selectedIconPath": "images/movie-on.png"
+      },
+      {
+        "text": "类别",
+        "pagePath": "pages/classify/classify",
+        "iconPath": "images/classify.png",
+        "selectedIconPath": "images/classify-on.png"
+      },
+      {
+        "text": "GUJI",
+        "pagePath": "pages/GuJi/guji",
+        "iconPath": "images/guji.png",
+        "selectedIconPath": "images/guji-on.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
 }
