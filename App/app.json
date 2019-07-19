@@ -1,13 +1,13 @@
 {
   "pages": [
+    "pages/GuJi/guji",
     "pages/index/index",
     "pages/logs/logs",
     "pages/new/new",
 
     "pages/home/home",
     "pages/movie/movie",
-    "pages/classify/classify",
-    "pages/GuJi/guji"
+    "pages/classify/classify"
   ],
   "tabBar": {
     "color": "#2c2c2c",

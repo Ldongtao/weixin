@@ -1,2 +1,14 @@
 <!--pages/GuJi/guji.wxml-->
-<text>pages/GuJi/guji.wxml</text>
+<view>
+    <view>
+        <view class="logo">
+            <image src="../../images/logo.jpg" class='image' />
+        </view>
+        <p class="title">与小姐姐恋爱   做真实记录的追随者</p>
+    </view>
+    <view class="main">
+        <view class="logo">
+            <image src="../../images/l1.jpg" />
+        </view>
+    </view>
+</view>
