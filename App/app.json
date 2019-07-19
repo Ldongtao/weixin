@@ -1,7 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/movie/movie",
+    "pages/family/family",
+    "pages/classify/classify",
+    "pages/GuJi/guji"
   ],
   "window": {
     "backgroundTextStyle": "light",

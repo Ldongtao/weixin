@@ -9,12 +9,23 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  gotoHome() {
+    wx.navigateTo({
+      url: '../home/home',
+    })
+    // wx.switchTab({
+    //   url: '../home/home'
+    // })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
